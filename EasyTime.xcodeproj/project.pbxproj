@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC1212691990CBF1009EAAB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1212681990CBF1009EAAB9 /* AppDelegate.swift */; };
+		DC12126D1990CBF1009EAAB9 /* PictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC12126C1990CBF1009EAAB9 /* PictureViewController.swift */; };
+		DC1212701990CBF1009EAAB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC12126E1990CBF1009EAAB9 /* Main.storyboard */; };
+		DC1212721990CBF1009EAAB9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC1212711990CBF1009EAAB9 /* Images.xcassets */; };
+		DC12127E1990CBF1009EAAB9 /* EasyTimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC12127D1990CBF1009EAAB9 /* EasyTimeTests.swift */; };
+		DC12128B1990D48B009EAAB9 /* GridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC12128A1990D48B009EAAB9 /* GridCell.swift */; };
+		DC12128D1990ED62009EAAB9 /* PictureDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC12128C1990ED62009EAAB9 /* PictureDetailViewController.swift */; };
+		DC146E101999B171006B265E /* JokeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC146E0F1999B171006B265E /* JokeTableViewController.swift */; };
+		DC146E121999B6B7006B265E /* JokeTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC146E111999B6B7006B265E /* JokeTableCell.swift */; };
+		DC146E171999CAFF006B265E /* FileUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC146E161999CAFF006B265E /* FileUtils.swift */; };
+		DC3A1800199CBD4900476711 /* progress.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC3A17FF199CBD4900476711 /* progress.xib */; };
+		DC3A1802199CC42E00476711 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3A1801199CC42E00476711 /* ProgressView.swift */; };
+		DC41CFC919911F1C0092C96F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC41CFC819911F1C0092C96F /* QuartzCore.framework */; };
+		DC41CFCB19911F500092C96F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC41CFCA19911F500092C96F /* CoreGraphics.framework */; };
+		DC41CFCD19911F6C0092C96F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC41CFCC19911F6C0092C96F /* UIKit.framework */; };
+		DC41CFD9199121B00092C96F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC41CFD8199121B00092C96F /* Foundation.framework */; };
+		DC43330C199CF87A00A6EECC /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC43330B199CF87A00A6EECC /* RootViewController.swift */; };
+		DC6D136D199A149700DF78E2 /* NSStringExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6D136C199A149700DF78E2 /* NSStringExt.swift */; };
+		DC6D136F199A15CF00DF78E2 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6D136E199A15CF00DF78E2 /* UIViewExt.swift */; };
+		DC8FC7CA19A197BE00742579 /* cover_down_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = DC8FC7C619A197BE00742579 /* cover_down_normal.png */; };
+		DC8FC7CB19A197BE00742579 /* default.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DC8FC7C719A197BE00742579 /* default.jpg */; };
+		DC8FC7CC19A197BE00742579 /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = DC8FC7C819A197BE00742579 /* default.png */; };
+		DC8FC7CD19A197BE00742579 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DC8FC7C919A197BE00742579 /* icon.png */; };
+		DC9916CA199C63D10069D069 /* ClickImage.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9916C9199C63D10069D069 /* ClickImage.m */; };
+		DC9EF1631991C8A000235C1C /* MJCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9EF15B1991C8A000235C1C /* MJCollectionViewController.m */; };
+		DC9EF1641991C8A000235C1C /* MJNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9EF15D1991C8A000235C1C /* MJNavigationController.m */; };
+		DC9EF1651991C8A000235C1C /* MJSampleIndexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9EF15F1991C8A000235C1C /* MJSampleIndexViewController.m */; };
+		DC9EF1661991C8A000235C1C /* MJTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9EF1611991C8A000235C1C /* MJTableViewController.m */; };
+		DC9EF1671991C8A000235C1C /* MJTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC9EF1621991C8A000235C1C /* MJTestViewController.xib */; };
+		DC9EF1781991C91D00235C1C /* MJRefresh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DC9EF1681991C91D00235C1C /* MJRefresh.bundle */; };
+		DC9EF1791991C91D00235C1C /* MJRefreshBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9EF16B1991C91D00235C1C /* MJRefreshBaseView.m */; };
+		DC9EF17A1991C91D00235C1C /* MJRefreshConst.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9EF16D1991C91D00235C1C /* MJRefreshConst.m */; };
+		DC9EF17B1991C91D00235C1C /* MJRefreshFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9EF16F1991C91D00235C1C /* MJRefreshFooterView.m */; };
+		DC9EF17C1991C91D00235C1C /* MJRefreshHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9EF1711991C91D00235C1C /* MJRefreshHeaderView.m */; };
+		DC9EF17D1991C91D00235C1C /* UIScrollView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9EF1731991C91D00235C1C /* UIScrollView+Extension.m */; };
+		DC9EF17E1991C91D00235C1C /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9EF1751991C91D00235C1C /* UIScrollView+MJRefresh.m */; };
+		DC9EF17F1991C91D00235C1C /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9EF1771991C91D00235C1C /* UIView+Extension.m */; };
+		DC9EF1821991C95200235C1C /* MJSampleIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9EF1811991C95200235C1C /* MJSampleIndex.m */; };
+		DC9EF1831991CB1800235C1C /* MJTableViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = DC9EF1601991C8A000235C1C /* MJTableViewController.h */; };
+		DC9EF1841991CB1F00235C1C /* MJCollectionViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = DC9EF15A1991C8A000235C1C /* MJCollectionViewController.h */; };
+		DC9EF1871991CB7700235C1C /* MJTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9EF1861991CB7700235C1C /* MJTestViewController.m */; };
+		DC9EF1881991CB8800235C1C /* MJTestViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = DC9EF1851991CB7700235C1C /* MJTestViewController.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC1212781990CBF1009EAAB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC12125B1990CBF1009EAAB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC1212621990CBF1009EAAB9;
+			remoteInfo = EasyTime;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC1212631990CBF1009EAAB9 /* EasyTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC1212671990CBF1009EAAB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC1212681990CBF1009EAAB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC12126C1990CBF1009EAAB9 /* PictureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureViewController.swift; sourceTree = "<group>"; };
+		DC12126F1990CBF1009EAAB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC1212711990CBF1009EAAB9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DC1212771990CBF1009EAAB9 /* EasyTimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyTimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC12127C1990CBF1009EAAB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC12127D1990CBF1009EAAB9 /* EasyTimeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyTimeTests.swift; sourceTree = "<group>"; };
+		DC12128A1990D48B009EAAB9 /* GridCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridCell.swift; sourceTree = "<group>"; };
+		DC12128C1990ED62009EAAB9 /* PictureDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictureDetailViewController.swift; sourceTree = "<group>"; };
+		DC146E0F1999B171006B265E /* JokeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JokeTableViewController.swift; sourceTree = "<group>"; };
+		DC146E111999B6B7006B265E /* JokeTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JokeTableCell.swift; sourceTree = "<group>"; };
+		DC146E161999CAFF006B265E /* FileUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileUtils.swift; sourceTree = "<group>"; };
+		DC3A17FF199CBD4900476711 /* progress.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = progress.xib; sourceTree = "<group>"; };
+		DC3A1801199CC42E00476711 /* ProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		DC41CFC819911F1C0092C96F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DC41CFCA19911F500092C96F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DC41CFCC19911F6C0092C96F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DC41CFD8199121B00092C96F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DC43330B199CF87A00A6EECC /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		DC6D136B199A0C3800DF78E2 /* TestPlayGround.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TestPlayGround.playground; sourceTree = "<group>"; };
+		DC6D136C199A149700DF78E2 /* NSStringExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSStringExt.swift; sourceTree = "<group>"; };
+		DC6D136E199A15CF00DF78E2 /* UIViewExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
+		DC8FC7C619A197BE00742579 /* cover_down_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cover_down_normal.png; path = image/cover_down_normal.png; sourceTree = "<group>"; };
+		DC8FC7C719A197BE00742579 /* default.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = default.jpg; path = image/default.jpg; sourceTree = "<group>"; };
+		DC8FC7C819A197BE00742579 /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = default.png; path = image/default.png; sourceTree = "<group>"; };
+		DC8FC7C919A197BE00742579 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = image/icon.png; sourceTree = "<group>"; };
+		DC9916C8199C63D10069D069 /* ClickImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ClickImage.h; path = ../../../Downloads/ClickImage/Image/ClickImage.h; sourceTree = "<group>"; };
+		DC9916C9199C63D10069D069 /* ClickImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ClickImage.m; path = ../../../Downloads/ClickImage/Image/ClickImage.m; sourceTree = "<group>"; };
+		DC9EF1591991C86800235C1C /* EasyTime-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EasyTime-Bridging-Header.h"; sourceTree = "<group>"; };
+		DC9EF15A1991C8A000235C1C /* MJCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MJCollectionViewController.h; path = "../../../Downloads/MJRefresh-master/MJRefreshExample/MJRefreshExample/Classes/Controller/MJCollectionViewController.h"; sourceTree = "<group>"; };
+		DC9EF15B1991C8A000235C1C /* MJCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MJCollectionViewController.m; path = "../../../Downloads/MJRefresh-master/MJRefreshExample/MJRefreshExample/Classes/Controller/MJCollectionViewController.m"; sourceTree = "<group>"; };
+		DC9EF15C1991C8A000235C1C /* MJNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MJNavigationController.h; path = "../../../Downloads/MJRefresh-master/MJRefreshExample/MJRefreshExample/Classes/Controller/MJNavigationController.h"; sourceTree = "<group>"; };
+		DC9EF15D1991C8A000235C1C /* MJNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MJNavigationController.m; path = "../../../Downloads/MJRefresh-master/MJRefreshExample/MJRefreshExample/Classes/Controller/MJNavigationController.m"; sourceTree = "<group>"; };
+		DC9EF15E1991C8A000235C1C /* MJSampleIndexViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MJSampleIndexViewController.h; path = "../../../Downloads/MJRefresh-master/MJRefreshExample/MJRefreshExample/Classes/Controller/MJSampleIndexViewController.h"; sourceTree = "<group>"; };
+		DC9EF15F1991C8A000235C1C /* MJSampleIndexViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MJSampleIndexViewController.m; path = "../../../Downloads/MJRefresh-master/MJRefreshExample/MJRefreshExample/Classes/Controller/MJSampleIndexViewController.m"; sourceTree = "<group>"; };
+		DC9EF1601991C8A000235C1C /* MJTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MJTableViewController.h; path = "../../../Downloads/MJRefresh-master/MJRefreshExample/MJRefreshExample/Classes/Controller/MJTableViewController.h"; sourceTree = "<group>"; };
+		DC9EF1611991C8A000235C1C /* MJTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MJTableViewController.m; path = "../../../Downloads/MJRefresh-master/MJRefreshExample/MJRefreshExample/Classes/Controller/MJTableViewController.m"; sourceTree = "<group>"; };
+		DC9EF1621991C8A000235C1C /* MJTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MJTestViewController.xib; path = "../../../Downloads/MJRefresh-master/MJRefreshExample/MJRefreshExample/Classes/Controller/MJTestViewController.xib"; sourceTree = "<group>"; };
+		DC9EF1681991C91D00235C1C /* MJRefresh.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = MJRefresh.bundle; path = "../../../Downloads/MJRefresh-master/MJRefreshExample/MJRefreshExample/MJRefresh/MJRefresh.bundle"; sourceTree = "<group>"; };
+		DC9EF1691991C91D00235C1C /* MJRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MJRefresh.h; path = "../../../Downloads/MJRefresh-master/MJRefreshExample/MJRefreshExample/MJRefresh/MJRefresh.h"; sourceTree = "<group>"; };
+		DC9EF16A1991C91D00235C1C /* MJRefreshBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MJRefreshBaseView.h; path = "../../../Downloads/MJRefresh-master/MJRefreshExample/MJRefreshExample/MJRefresh/MJRefreshBaseView.h"; sourceTree = "<group>"; };
+		DC9EF16B1991C91D00235C1C /* MJRefreshBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBaseView.m; path = "../../../Downloads/MJRefresh-master/MJRefreshExample/MJRefreshExample/MJRefresh/MJRefreshBaseView.m"; sourceTree = "<group>"; };
+		DC9EF16C1991C91D00235C1C /* MJRefreshConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MJRefreshConst.h; path = "../../../Downloads/MJRefresh-master/MJRefreshExample/MJRefreshExample/MJRefresh/MJRefreshConst.h"; sourceTree = "<group>"; };
+		DC9EF16D1991C91D00235C1C /* MJRefreshConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MJRefreshConst.m; path = "../../../Downloads/MJRefresh-master/MJRefreshExample/MJRefreshExample/MJRefresh/MJRefreshConst.m"; sourceTree = "<group>"; };
+		DC9EF16E1991C91D00235C1C /* MJRefreshFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MJRefreshFooterView.h; path = "../../../Downloads/MJRefresh-master/MJRefreshExample/MJRefreshExample/MJRefresh/MJRefreshFooterView.h"; sourceTree = "<group>"; };
+		DC9EF16F1991C91D00235C1C /* MJRefreshFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MJRefreshFooterView.m; path = "../../../Downloads/MJRefresh-master/MJRefreshExample/MJRefreshExample/MJRefresh/MJRefreshFooterView.m"; sourceTree = "<group>"; };
+		DC9EF1701991C91D00235C1C /* MJRefreshHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MJRefreshHeaderView.h; path = "../../../Downloads/MJRefresh-master/MJRefreshExample/MJRefreshExample/MJRefresh/MJRefreshHeaderView.h"; sourceTree = "<group>"; };
+		DC9EF1711991C91D00235C1C /* MJRefreshHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MJRefreshHeaderView.m; path = "../../../Downloads/MJRefresh-master/MJRefreshExample/MJRefreshExample/MJRefresh/MJRefreshHeaderView.m"; sourceTree = "<group>"; };
+		DC9EF1721991C91D00235C1C /* UIScrollView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+Extension.h"; path = "../../../Downloads/MJRefresh-master/MJRefreshExample/MJRefreshExample/MJRefresh/UIScrollView+Extension.h"; sourceTree = "<group>"; };
+		DC9EF1731991C91D00235C1C /* UIScrollView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+Extension.m"; path = "../../../Downloads/MJRefresh-master/MJRefreshExample/MJRefreshExample/MJRefresh/UIScrollView+Extension.m"; sourceTree = "<group>"; };
+		DC9EF1741991C91D00235C1C /* UIScrollView+MJRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+MJRefresh.h"; path = "../../../Downloads/MJRefresh-master/MJRefreshExample/MJRefreshExample/MJRefresh/UIScrollView+MJRefresh.h"; sourceTree = "<group>"; };
+		DC9EF1751991C91D00235C1C /* UIScrollView+MJRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+MJRefresh.m"; path = "../../../Downloads/MJRefresh-master/MJRefreshExample/MJRefreshExample/MJRefresh/UIScrollView+MJRefresh.m"; sourceTree = "<group>"; };
+		DC9EF1761991C91D00235C1C /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Extension.h"; path = "../../../Downloads/MJRefresh-master/MJRefreshExample/MJRefreshExample/MJRefresh/UIView+Extension.h"; sourceTree = "<group>"; };
+		DC9EF1771991C91D00235C1C /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Extension.m"; path = "../../../Downloads/MJRefresh-master/MJRefreshExample/MJRefreshExample/MJRefresh/UIView+Extension.m"; sourceTree = "<group>"; };
+		DC9EF1801991C95200235C1C /* MJSampleIndex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MJSampleIndex.h; path = "../../../Downloads/MJRefresh-master/MJRefreshExample/MJRefreshExample/Classes/Model/MJSampleIndex.h"; sourceTree = "<group>"; };
+		DC9EF1811991C95200235C1C /* MJSampleIndex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MJSampleIndex.m; path = "../../../Downloads/MJRefresh-master/MJRefreshExample/MJRefreshExample/Classes/Model/MJSampleIndex.m"; sourceTree = "<group>"; };
+		DC9EF1851991CB7700235C1C /* MJTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MJTestViewController.h; path = "../../../Downloads/MJRefresh-master/MJRefreshExample/MJRefreshExample/Classes/Controller/MJTestViewController.h"; sourceTree = "<group>"; };
+		DC9EF1861991CB7700235C1C /* MJTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MJTestViewController.m; path = "../../../Downloads/MJRefresh-master/MJRefreshExample/MJRefreshExample/Classes/Controller/MJTestViewController.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC1212601990CBF1009EAAB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC41CFD9199121B00092C96F /* Foundation.framework in Frameworks */,
+				DC41CFCD19911F6C0092C96F /* UIKit.framework in Frameworks */,
+				DC41CFCB19911F500092C96F /* CoreGraphics.framework in Frameworks */,
+				DC41CFC919911F1C0092C96F /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC1212741990CBF1009EAAB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC12125A1990CBF1009EAAB9 = {
+			isa = PBXGroup;
+			children = (
+				DC41CFD8199121B00092C96F /* Foundation.framework */,
+				DC41CFCC19911F6C0092C96F /* UIKit.framework */,
+				DC41CFCA19911F500092C96F /* CoreGraphics.framework */,
+				DC41CFC819911F1C0092C96F /* QuartzCore.framework */,
+				DC41CFBB199119830092C96F /* libs */,
+				DC1212651990CBF1009EAAB9 /* EasyTime */,
+				DC12127A1990CBF1009EAAB9 /* EasyTimeTests */,
+				DC1212641990CBF1009EAAB9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC1212641990CBF1009EAAB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC1212631990CBF1009EAAB9 /* EasyTime.app */,
+				DC1212771990CBF1009EAAB9 /* EasyTimeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC1212651990CBF1009EAAB9 /* EasyTime */ = {
+			isa = PBXGroup;
+			children = (
+				DC1212681990CBF1009EAAB9 /* AppDelegate.swift */,
+				DC12126C1990CBF1009EAAB9 /* PictureViewController.swift */,
+				DC12128A1990D48B009EAAB9 /* GridCell.swift */,
+				DC12126E1990CBF1009EAAB9 /* Main.storyboard */,
+				DC1212711990CBF1009EAAB9 /* Images.xcassets */,
+				DC1212661990CBF1009EAAB9 /* Supporting Files */,
+				DC12128C1990ED62009EAAB9 /* PictureDetailViewController.swift */,
+				DC146E0F1999B171006B265E /* JokeTableViewController.swift */,
+				DC146E111999B6B7006B265E /* JokeTableCell.swift */,
+				DC146E161999CAFF006B265E /* FileUtils.swift */,
+				DC6D136B199A0C3800DF78E2 /* TestPlayGround.playground */,
+				DC6D136C199A149700DF78E2 /* NSStringExt.swift */,
+				DC6D136E199A15CF00DF78E2 /* UIViewExt.swift */,
+				DC3A17FF199CBD4900476711 /* progress.xib */,
+				DC3A1801199CC42E00476711 /* ProgressView.swift */,
+				DC43330B199CF87A00A6EECC /* RootViewController.swift */,
+			);
+			path = EasyTime;
+			sourceTree = "<group>";
+		};
+		DC1212661990CBF1009EAAB9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC8FC7C619A197BE00742579 /* cover_down_normal.png */,
+				DC8FC7C719A197BE00742579 /* default.jpg */,
+				DC8FC7C819A197BE00742579 /* default.png */,
+				DC8FC7C919A197BE00742579 /* icon.png */,
+				DC1212671990CBF1009EAAB9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC12127A1990CBF1009EAAB9 /* EasyTimeTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC12127D1990CBF1009EAAB9 /* EasyTimeTests.swift */,
+				DC12127B1990CBF1009EAAB9 /* Supporting Files */,
+			);
+			path = EasyTimeTests;
+			sourceTree = "<group>";
+		};
+		DC12127B1990CBF1009EAAB9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC12127C1990CBF1009EAAB9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC41CFBB199119830092C96F /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				DC9916C8199C63D10069D069 /* ClickImage.h */,
+				DC9916C9199C63D10069D069 /* ClickImage.m */,
+				DC9EF1851991CB7700235C1C /* MJTestViewController.h */,
+				DC9EF1861991CB7700235C1C /* MJTestViewController.m */,
+				DC9EF1801991C95200235C1C /* MJSampleIndex.h */,
+				DC9EF1811991C95200235C1C /* MJSampleIndex.m */,
+				DC9EF1681991C91D00235C1C /* MJRefresh.bundle */,
+				DC9EF1691991C91D00235C1C /* MJRefresh.h */,
+				DC9EF16A1991C91D00235C1C /* MJRefreshBaseView.h */,
+				DC9EF16B1991C91D00235C1C /* MJRefreshBaseView.m */,
+				DC9EF16C1991C91D00235C1C /* MJRefreshConst.h */,
+				DC9EF16D1991C91D00235C1C /* MJRefreshConst.m */,
+				DC9EF16E1991C91D00235C1C /* MJRefreshFooterView.h */,
+				DC9EF16F1991C91D00235C1C /* MJRefreshFooterView.m */,
+				DC9EF1701991C91D00235C1C /* MJRefreshHeaderView.h */,
+				DC9EF1711991C91D00235C1C /* MJRefreshHeaderView.m */,
+				DC9EF1721991C91D00235C1C /* UIScrollView+Extension.h */,
+				DC9EF1731991C91D00235C1C /* UIScrollView+Extension.m */,
+				DC9EF1741991C91D00235C1C /* UIScrollView+MJRefresh.h */,
+				DC9EF1751991C91D00235C1C /* UIScrollView+MJRefresh.m */,
+				DC9EF1761991C91D00235C1C /* UIView+Extension.h */,
+				DC9EF1771991C91D00235C1C /* UIView+Extension.m */,
+				DC9EF1591991C86800235C1C /* EasyTime-Bridging-Header.h */,
+				DC9EF15A1991C8A000235C1C /* MJCollectionViewController.h */,
+				DC9EF15B1991C8A000235C1C /* MJCollectionViewController.m */,
+				DC9EF15C1991C8A000235C1C /* MJNavigationController.h */,
+				DC9EF15D1991C8A000235C1C /* MJNavigationController.m */,
+				DC9EF15E1991C8A000235C1C /* MJSampleIndexViewController.h */,
+				DC9EF15F1991C8A000235C1C /* MJSampleIndexViewController.m */,
+				DC9EF1601991C8A000235C1C /* MJTableViewController.h */,
+				DC9EF1611991C8A000235C1C /* MJTableViewController.m */,
+				DC9EF1621991C8A000235C1C /* MJTestViewController.xib */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC1212621990CBF1009EAAB9 /* EasyTime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC1212811990CBF1009EAAB9 /* Build configuration list for PBXNativeTarget "EasyTime" */;
+			buildPhases = (
+				DC12125F1990CBF1009EAAB9 /* Sources */,
+				DC1212601990CBF1009EAAB9 /* Frameworks */,
+				DC1212611990CBF1009EAAB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyTime;
+			productName = EasyTime;
+			productReference = DC1212631990CBF1009EAAB9 /* EasyTime.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC1212761990CBF1009EAAB9 /* EasyTimeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC1212841990CBF1009EAAB9 /* Build configuration list for PBXNativeTarget "EasyTimeTests" */;
+			buildPhases = (
+				DC1212731990CBF1009EAAB9 /* Sources */,
+				DC1212741990CBF1009EAAB9 /* Frameworks */,
+				DC1212751990CBF1009EAAB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC1212791990CBF1009EAAB9 /* PBXTargetDependency */,
+			);
+			name = EasyTimeTests;
+			productName = EasyTimeTests;
+			productReference = DC1212771990CBF1009EAAB9 /* EasyTimeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC12125B1990CBF1009EAAB9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = souche;
+				TargetAttributes = {
+					DC1212621990CBF1009EAAB9 = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = XH2Z24LF5H;
+					};
+					DC1212761990CBF1009EAAB9 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = DC1212621990CBF1009EAAB9;
+					};
+				};
+			};
+			buildConfigurationList = DC12125E1990CBF1009EAAB9 /* Build configuration list for PBXProject "EasyTime" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC12125A1990CBF1009EAAB9;
+			productRefGroup = DC1212641990CBF1009EAAB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC1212621990CBF1009EAAB9 /* EasyTime */,
+				DC1212761990CBF1009EAAB9 /* EasyTimeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC1212611990CBF1009EAAB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC8FC7CD19A197BE00742579 /* icon.png in Resources */,
+				DC8FC7CA19A197BE00742579 /* cover_down_normal.png in Resources */,
+				DC3A1800199CBD4900476711 /* progress.xib in Resources */,
+				DC8FC7CB19A197BE00742579 /* default.jpg in Resources */,
+				DC1212701990CBF1009EAAB9 /* Main.storyboard in Resources */,
+				DC1212721990CBF1009EAAB9 /* Images.xcassets in Resources */,
+				DC9EF1781991C91D00235C1C /* MJRefresh.bundle in Resources */,
+				DC9EF1671991C8A000235C1C /* MJTestViewController.xib in Resources */,
+				DC8FC7CC19A197BE00742579 /* default.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC1212751990CBF1009EAAB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC12125F1990CBF1009EAAB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC6D136F199A15CF00DF78E2 /* UIViewExt.swift in Sources */,
+				DC9EF1881991CB8800235C1C /* MJTestViewController.h in Sources */,
+				DC6D136D199A149700DF78E2 /* NSStringExt.swift in Sources */,
+				DC9EF1841991CB1F00235C1C /* MJCollectionViewController.h in Sources */,
+				DC9916CA199C63D10069D069 /* ClickImage.m in Sources */,
+				DC9EF1831991CB1800235C1C /* MJTableViewController.h in Sources */,
+				DC146E171999CAFF006B265E /* FileUtils.swift in Sources */,
+				DC146E121999B6B7006B265E /* JokeTableCell.swift in Sources */,
+				DC9EF17B1991C91D00235C1C /* MJRefreshFooterView.m in Sources */,
+				DC9EF17D1991C91D00235C1C /* UIScrollView+Extension.m in Sources */,
+				DC43330C199CF87A00A6EECC /* RootViewController.swift in Sources */,
+				DC9EF1651991C8A000235C1C /* MJSampleIndexViewController.m in Sources */,
+				DC12128D1990ED62009EAAB9 /* PictureDetailViewController.swift in Sources */,
+				DC9EF1661991C8A000235C1C /* MJTableViewController.m in Sources */,
+				DC12128B1990D48B009EAAB9 /* GridCell.swift in Sources */,
+				DC12126D1990CBF1009EAAB9 /* PictureViewController.swift in Sources */,
+				DC9EF17E1991C91D00235C1C /* UIScrollView+MJRefresh.m in Sources */,
+				DC1212691990CBF1009EAAB9 /* AppDelegate.swift in Sources */,
+				DC9EF1641991C8A000235C1C /* MJNavigationController.m in Sources */,
+				DC9EF17A1991C91D00235C1C /* MJRefreshConst.m in Sources */,
+				DC9EF1791991C91D00235C1C /* MJRefreshBaseView.m in Sources */,
+				DC146E101999B171006B265E /* JokeTableViewController.swift in Sources */,
+				DC9EF1871991CB7700235C1C /* MJTestViewController.m in Sources */,
+				DC9EF17C1991C91D00235C1C /* MJRefreshHeaderView.m in Sources */,
+				DC9EF17F1991C91D00235C1C /* UIView+Extension.m in Sources */,
+				DC3A1802199CC42E00476711 /* ProgressView.swift in Sources */,
+				DC9EF1821991C95200235C1C /* MJSampleIndex.m in Sources */,
+				DC9EF1631991C8A000235C1C /* MJCollectionViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC1212731990CBF1009EAAB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC12127E1990CBF1009EAAB9 /* EasyTimeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC1212791990CBF1009EAAB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC1212621990CBF1009EAAB9 /* EasyTime */;
+			targetProxy = DC1212781990CBF1009EAAB9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC12126E1990CBF1009EAAB9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC12126F1990CBF1009EAAB9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC12127F1990CBF1009EAAB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC1212801990CBF1009EAAB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC1212821990CBF1009EAAB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = EasyTime/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "libs/EasyTime-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC1212831990CBF1009EAAB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = EasyTime/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "libs/EasyTime-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		DC1212851990CBF1009EAAB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EasyTimeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyTime.app/EasyTime";
+			};
+			name = Debug;
+		};
+		DC1212861990CBF1009EAAB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EasyTimeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyTime.app/EasyTime";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC12125E1990CBF1009EAAB9 /* Build configuration list for PBXProject "EasyTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC12127F1990CBF1009EAAB9 /* Debug */,
+				DC1212801990CBF1009EAAB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC1212811990CBF1009EAAB9 /* Build configuration list for PBXNativeTarget "EasyTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC1212821990CBF1009EAAB9 /* Debug */,
+				DC1212831990CBF1009EAAB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC1212841990CBF1009EAAB9 /* Build configuration list for PBXNativeTarget "EasyTimeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC1212851990CBF1009EAAB9 /* Debug */,
+				DC1212861990CBF1009EAAB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC12125B1990CBF1009EAAB9 /* Project object */;
+}
